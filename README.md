@@ -30,12 +30,13 @@ Chapters 1-6 by Stefan
 Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HL.pdf))  
   
   
-**Additional topics (Stefan)**
+**Additional topics (Stefan)**  
 
- 13. Large files  [Text](https://git-lfs.github.com/) | [Video (2min)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)
- 14. [Non-code files (Images, PDFs, Office documents)](NonCodeFiles.md)
+ 13. [Non-code files (Images, PDFs, Office documents)](NonCodeFiles.md)
+ 14. Large files  [Text](https://git-lfs.github.com/) | [Video (2min)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)
  15. [Documentation/Website hosting](Documentation.md)
  16. [Commit best practices](http://r-pkgs.had.co.nz/git.html#commit-best-practices)
+
 
 ### The problem
 
@@ -150,11 +151,6 @@ http://swcarpentry.github.io/git-novice/reference.html
 **How to undo (almost) anything with Git**  
 - https://github.com/blog/2019-how-to-undo-almost-anything-with-git
 - [Graph](https://twitter.com/emmajanehw/status/549919920990208000)
-
-**Markdown**
-- [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Markdown basics](https://help.github.com/articles/markdown-basics/)
-- [Writing on github](https://help.github.com/articles/writing-on-github/)
 
 
 ### Tips

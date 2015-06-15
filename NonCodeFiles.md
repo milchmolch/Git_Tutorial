@@ -6,7 +6,7 @@ these filetypes (which are  "binary" file types).
 Much of Git’s magic comes from being able to do line-by-line comparisons ("diffs") between files. This is generally easy for programming
 source code and Markdown text. For non-text files, a diff can usually only detect that the files have changed but can’t say how or where.  
   
-However, Github supports diffing Markdown text ([1 example]()) and even [images](https://help.github.com/articles/rendering-and-diffing-images/) (including PNG, JPG, GIF, PSD and SVG) 
+However, Github supports diffing Markdown text ([see 1 example](https://github.com/milchmolch/Git_Tutorial/commit/10fa03d86e4f7a9a09cf48a08e84efde96473bda?diff=split#diff-04c6e90faac2675aa89e2176d2eec7d8)) and even [images](https://help.github.com/articles/rendering-and-diffing-images/) (including PNG, JPG, GIF, PSD and SVG) 
 With tricks we can also [compare tables](https://paulfitz.github.io/daff).
 
     
