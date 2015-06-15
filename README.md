@@ -27,42 +27,18 @@ The tutorial is heavily based on a [Software Carpentry Course](http://swcarpentr
 
 
 Chapters 1-6 by Stefan  
-Chapters 7-12 by Heidi ([PDF Presentation](Exercises_Git_Tutorial_HL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HL.pdf) )
+Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HL.pdf))  
 Chapters 13-16 by Stefan  
 
 check also http://swcarpentry.github.io/git-novice/instructors.html
 
 
+**Additional topics**
 
 13. [Large files](https://git-lfs.github.com/) [Video (2min)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)
-14. Non-text files
-Many people want to version control non-text files, such as images, PDFs and Microsoft Office or LibreOffice documents. It is true that Git can handle these filetypes (which fall under the banner of “binary” file types)
-
-Much of Git’s magic comes from being able to do line-by-line comparisons (“diffs”) between files. This is generally easy for programming source code and marked up text. For non-text files, a diff can usually only detect that the files have changed but can’t say how or where.
-
-[Support for pictures](https://help.github.com/articles/rendering-and-diffing-images/)
-
-git diff --word-diff is very handy for csc, tex mkd, 
-Compare tables: https://paulfitz.github.io/daff
-
-15. Website hosting
-The README file is what’s generally shown by default in this view of a repository, and standard to have in your GitHub project. It’s basically just a text file that supports the Markdown syntax
-16. Best practices
-
-Ideally, each commit should be minimal but complete:
-
-Minimal: A commit should only contain changes related to a single problem. This will make it easier to understand the commit at a glance, and to describe it with a simple message. If you should discover a new problem, you should do a separate commit.
-
-Complete: A commit should solve the problem that it claims to solve. If you think you’ve fixed a bug, the commit should contain a unit test that confirms you’re right.
-
-Each commit message should:
-
-Be concise, yet evocative. At a glance, you should be able to see what a commit does. But there should be enough detail so you can remember (and understand) what was done.
-
-Describe the why, not the what. Since you can always retrieve the diff associated with a commit, the message doesn’t need to say exactly what changed. Instead it should provide a high-level summary that focuses on the reasons for the change.
-
-
-
+14. [Non-code files (Images, PDFs, Office documents)](NonCodeFiles.md)
+15. [Documentation/Website hosting](Documentation.md)
+16. [Commit best practices](http://r-pkgs.had.co.nz/git.html)
 
 ### The problem
 
@@ -82,9 +58,9 @@ Git can be used to increase reproducibility, as a backup system against data los
 if you are working on several computers. 
 
 - giant undo button
-- collaboration - several people working on the same documents
-- backup system against data loss
+- backup system against data loss  
   you can retrieve and compare versions
+- collaboration - several people working on the same documents
 - increase reproducibility
 - you work on multiple computers  
 
@@ -92,34 +68,35 @@ if you are working on several computers.
 Git is just one popular versioning system. 
 
 Git is complicated and Learning git (and using) is sometimes frustrating.  
+```
 "Git has a real knack for making me feel stupid!" Torsten Seemann
-
+```
 
 ### Installing git on the command line
 
-In my opinion it is easier to learn git using the command line. After initial setup all we need for our daily work are 2 or 3 git commands -
-With time we learn and memorize more commands. 
+In my opinion it is easier to learn git using the command line. After initial setup all we need for our daily work are 3 or 4 git commands -
+with time we learn and memorize more commands. 
 By using graphical interfaces there is a higher risk of using advanced commands without really knowing what they do.  
   
-- Mac
+- Mac  
   Install Git from here: http://git-scm.com/downloads.  
   For older versions of OS X (10.5-10.7) use the most recent available installer available [here](https://code.google.com/p/git-osx-installer/downloads/list).
-- Windows
+- Windows  
   Install Git for Windows by downloading and running [the installer](http://msysgit.github.io/). This will provide you with both Git and Bash in the Git Bash program.
-- Linux
+- Linux  
   You can install it via your distribution's package manager. For Ubuntu run `sudo apt-get install git`.
 
 
 ### Installing Graphical Interfaces
 
-We recommend [SourceTree (Mac, Windows)](https://www.sourcetreeapp.com/), [Github for Mac](https://mac.github.com/) and, for Linux, [SmartGit](http://www.syntevo.com/smartgit/.)
+We recommend [SourceTree (Mac, Windows)](https://www.sourcetreeapp.com/), [Github for Mac](https://mac.github.com/) and, for Linux, [SmartGit](http://www.syntevo.com/smartgit/).
   
 RStudio also comprises a basic git client.  
   
 Because all of the clients are just forming and executing Git commands on your behalf, you don’t have to pick one.  
 You can literally do one operation from the command line, do another from RStudio, and another from SourceTree, one after the other, and it just works.
 
-For a full list of available software, see http://git-scm.com/downloads/guis
+For a full list of available graphical interfaces, see http://git-scm.com/downloads/guis
 
 
 ### Installation problems
@@ -150,24 +127,34 @@ http://swcarpentry.github.io/git-novice/02-setup.html
 - https://help.github.com/
 - https://help.github.com/articles/good-resources-for-learning-git-and-github/
 - https://www.atlassian.com/git/
-- http://gitimmersion.com/
+- [Stackoverflow](http://stackoverflow.com)
 
 
 ### Links
 
-*Cheatsheets*
+**Cheatsheets**
 - [Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 http://swcarpentry.github.io/git-novice/reference.html
 - [Git Reference (Software-Carpentry)](http://software-carpentry.org/v5/novice/ref/02-git.html)
 
-*Courses*
+**Courses**
+- http://gitimmersion.com/
 - [Interactive learning git (15 minutes)](https://try.github.io/levels/1/challenges/1)
 - [Interactive learning](http://pcottle.github.io/learnGitBranching/)
-- [Software Carpentry Course](http://swcarpentry.github.io/git-novice/)
-
+- [Software Carpentry Course](http://swcarpentry.github.io/git-novice/)  
+  
 - [Git book](http://git-scm.com/book/en/v2)
 
-*Markdown*
+**Improving git skills**  
+- http://firstaidgit.io/#/
+- http://thelinell.com/2014/12/23/curated-git-links-of-2014/
+- http://41j.com/blog/2015/02/common-git-screwupsquestions-solutions/?utm_content=bufferfbdd4&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+**How to undo (almost) anything with Git**  
+- https://github.com/blog/2019-how-to-undo-almost-anything-with-git
+- [Graph](https://twitter.com/emmajanehw/status/549919920990208000)
+
+**Markdown**
 - [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Markdown basics](https://help.github.com/articles/markdown-basics/)
 - [Writing on github](https://help.github.com/articles/writing-on-github/)
@@ -176,16 +163,4 @@ http://swcarpentry.github.io/git-novice/reference.html
 ### Tips
 
 - Graphical diff/merge software, e.g. [DiffMerge](https://sourcegear.com/diffmerge/) 
-
-
-
-First aid git (most frequently asked git questions)
-http://firstaidgit.io/#/
-http://thelinell.com/2014/12/23/curated-git-links-of-2014/
-http://41j.com/blog/2015/02/common-git-screwupsquestions-solutions/?utm_content=bufferfbdd4&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-
-How to undo (almost) anything with Git
-https://github.com/blog/2019-how-to-undo-almost-anything-with-git
-
-graph: undoing changes
-https://twitter.com/emmajanehw/status/549919920990208000
+- Github gives educational discounts to students, teachers, administrators, and researchers. Apply at https://education.github.com
