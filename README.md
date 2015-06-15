@@ -28,17 +28,14 @@ The tutorial is heavily based on a [Software Carpentry Course](http://swcarpentr
 
 Chapters 1-6 by Stefan  
 Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HL.pdf))  
-Chapters 13-16 by Stefan  
+  
+  
+**Additional topics (Stefan)**
 
-check also http://swcarpentry.github.io/git-novice/instructors.html
-
-
-**Additional topics**
-
-13. [Large files](https://git-lfs.github.com/) [Video (2min)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)
-14. [Non-code files (Images, PDFs, Office documents)](NonCodeFiles.md)
-15. [Documentation/Website hosting](Documentation.md)
-16. [Commit best practices](http://r-pkgs.had.co.nz/git.html)
+ 13. Large files  [Text](https://git-lfs.github.com/) | [Video (2min)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)
+ 14. [Non-code files (Images, PDFs, Office documents)](NonCodeFiles.md)
+ 15. [Documentation/Website hosting](Documentation.md)
+ 16. [Commit best practices](http://r-pkgs.had.co.nz/git.html#commit-best-practices)
 
 ### The problem
 
