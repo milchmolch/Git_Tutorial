@@ -40,8 +40,8 @@ Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HL.pdf) | [PDF Exer
 
 ### The problem
 
-- "The final version" from [PHD comics](http://www.phdcomics.com/comics/archive.php?comicid=1531)
-<img src="finalDoc.gif" width="300">
+- <img src="finalDoc.gif" width="300">  
+  "The final version" from [PHD comics](http://www.phdcomics.com/comics/archive.php?comicid=1531)
 
 - You want to improve a working script. After 2 hours of rewriting the new script still doesn't work. Unfortunately you overwrote
 the original version that worked and can't go back. 
@@ -157,3 +157,4 @@ http://swcarpentry.github.io/git-novice/reference.html
 
 - Graphical diff/merge software, e.g. [DiffMerge](https://sourcegear.com/diffmerge/) 
 - Github gives educational discounts to students, teachers, administrators, and researchers. Apply at https://education.github.com
+- [Git in science](http://www.scfbm.org/content/8/1/7)
