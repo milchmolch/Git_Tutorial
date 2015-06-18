@@ -29,6 +29,9 @@ The tutorial is heavily based on a [Software Carpentry Course](http://swcarpentr
 Chapters 1-6 by Stefan  
 Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HL.pdf))  
   
+
+[Course Summary with Glossary](http://swcarpentry.github.io/git-novice/reference.html)  
+  
   
 **Additional topics (Stefan)**  
 
@@ -131,13 +134,14 @@ http://swcarpentry.github.io/git-novice/02-setup.html
 ### Links
 
 **Cheatsheets**
-- [Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
-http://swcarpentry.github.io/git-novice/reference.html
+- [Simple cheatsheet](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+- [Longer Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 - [Git Reference (Software-Carpentry)](http://software-carpentry.org/v5/novice/ref/02-git.html)
 
 **Courses**
 - http://gitimmersion.com/
 - [Interactive learning git (15 minutes)](https://try.github.io/levels/1/challenges/1)
+- [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
 - [Interactive learning](http://pcottle.github.io/learnGitBranching/)
 - [Software Carpentry Course](http://swcarpentry.github.io/git-novice/)  
   
