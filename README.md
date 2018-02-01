@@ -13,11 +13,11 @@ The tutorial is heavily based on a [Software Carpentry Course](http://swcarpentr
   
   
 1. Introduction
-2. [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup.html)
-3. [Creating a Repository](http://swcarpentry.github.io/git-novice/03-create.html)
-4. [Tracking Changes](http://swcarpentry.github.io/git-novice/04-changes.html)
-5. [Exploring History](http://swcarpentry.github.io/git-novice/05-history.html)
-6. [Ignoring Things](http://swcarpentry.github.io/git-novice/06-ignore.html)
+2. [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup)
+3. [Creating a Repository](http://swcarpentry.github.io/git-novice/03-create)
+4. [Tracking Changes](http://swcarpentry.github.io/git-novice/04-changes)
+5. [Exploring History](http://swcarpentry.github.io/git-novice/05-history)
+6. [Ignoring Things](http://swcarpentry.github.io/git-novice/06-ignore)
 7. Remotes in GitHub
 8. Collaborating
 9. Conflicts
@@ -30,48 +30,16 @@ Chapters 1-6 by Stefan
 Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HL.pdf))  
   
 
-[Course Summary with Glossary](http://swcarpentry.github.io/git-novice/reference.html)  
+[Course Summary with Glossary](http://swcarpentry.github.io/git-novice/reference)  
   
   
 **Additional topics (Stefan)**  
 
  13. [Non-code files (Images, PDFs, Office documents)](NonCodeFiles.md)
- 14. Large files  [Text](https://git-lfs.github.com/) | [Video (2min)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)
+ 14. Large files  [Link1](https://about.gitlab.com/2017/01/30/getting-started-with-git-lfs-tutorial/) | [Link2](https://git-lfs.github.com/) | [Video (2min)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)
  15. [Documentation/Website hosting](Documentation.md)
  16. [Commit best practices](http://r-pkgs.had.co.nz/git.html#commit-best-practices)
 
-
-### The problem
-
-- <img src="finalDoc.gif" width="300">  
-  "The final version" from [PHD comics](http://www.phdcomics.com/comics/archive.php?comicid=1531)
-
-- You want to improve a working script. After 2 hours of rewriting the new script still doesn't work. Unfortunately you overwrote
-the original version that worked and can't go back. 
-
-- Which version did I use 3 years ago when I did the analysis?
-
-
-### The solution: versioning
-
-Git/Github is increasingly used to handle research outputs such as datasets, statistical code, figures, lab notes, and manuscripts.
-Git can be used to increase reproducibility, as a backup system against data loss, for facilitating collaboration or simply
-if you are working on several computers. 
-
-- giant undo button
-- backup system against data loss  
-  you can retrieve and compare versions
-- collaboration - several people working on the same documents
-- increase reproducibility
-- you work on multiple computers  
-
-
-Git is just one popular versioning system. 
-
-Git is complicated and Learning git (and using) is sometimes frustrating.  
-```
-"Git has a real knack for making me feel stupid!" Torsten Seemann
-```
 
 ### Installing git on the command line
 
@@ -90,7 +58,7 @@ By using graphical interfaces there is a higher risk of using advanced commands 
 
 ### Installing Graphical Interfaces
 
-We recommend [SourceTree (Mac, Windows)](https://www.sourcetreeapp.com/), [Github for Mac](https://mac.github.com/) and, for Linux, [SmartGit](http://www.syntevo.com/smartgit/).
+We recommend [SourceTree (Mac, Windows)](https://www.sourcetreeapp.com/), [Github for Mac](https://mac.github.com/) and, for Linux, [gitkraken](https://www.gitkraken.com/) or [SmartGit](http://www.syntevo.com/smartgit/).
   
 RStudio also comprises a basic git client.  
   
@@ -119,8 +87,7 @@ Tell Git the email address that will be associated with your Git commits.
 git config --global user.email "YOUR EMAIL ADDRESS"
 ```
 
-[Github help](https://help.github.com/articles/set-up-git/)
-http://swcarpentry.github.io/git-novice/02-setup.html
+[set-up help](https://help.github.com/articles/set-up-git/) | [other link](http://swcarpentry.github.io/git-novice/02-setup)
 
 
 ### Getting help
@@ -135,27 +102,31 @@ http://swcarpentry.github.io/git-novice/02-setup.html
 
 **Cheatsheets**
 - [Simple cheatsheet](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
-- [Longer Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
-- [Git Reference (Software-Carpentry)](http://software-carpentry.org/v5/novice/ref/02-git.html)
+- [Longer Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Git Reference (Software-Carpentry)](http://software-carpentry.org/v5/novice/ref/02-git)
 
 **Courses**
 - http://gitimmersion.com/
 - [Interactive learning git (15 minutes)](https://try.github.io/levels/1/challenges/1)
 - [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
+- [Happy Git and GitHub for R useRs](http://happygitwithr.com/)
 - [Interactive learning](http://pcottle.github.io/learnGitBranching/)
 - [Software Carpentry Course](http://swcarpentry.github.io/git-novice/)  
   
 - [Git book](http://git-scm.com/book/en/v2)
 
 **Improving git skills**  
+- https://github.com/GitInPractice/GitInPractice
 - http://firstaidgit.io/#/
 - http://thelinell.com/2014/12/23/curated-git-links-of-2014/
-- http://41j.com/blog/2015/02/common-git-screwupsquestions-solutions/?utm_content=bufferfbdd4&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+- http://41j.com/blog/2015/02/common-git-screwupsquestions-solutions/
 
 **How to undo (almost) anything with Git**  
 - https://github.com/blog/2019-how-to-undo-almost-anything-with-git
 - [Graph](https://twitter.com/emmajanehw/status/549919920990208000)
 
+**Markdown**  
+- [tutorial with step-by-step interactive exercises](http://commonmark.org/help/tutorial/)
 
 ### Tips
 
