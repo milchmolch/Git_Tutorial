@@ -26,8 +26,8 @@ The tutorial is heavily based on a [Software Carpentry Course](http://swcarpentr
 12. Hosting
 
 
-Chapters 1-6 by Stefan ([Intro Presentation](URPP_Tutorial_Git_SW.pdf)) 
-Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HL.pdf))  
+Chapters 1-6 by Stefan ([Intro Presentation](URPP_Tutorial_Git_SW.pdf))  
+Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HTL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HTL.pdf))  
   
 
 [Course Summary with Glossary](http://swcarpentry.github.io/git-novice/reference)  
