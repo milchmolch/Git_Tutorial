@@ -3,7 +3,7 @@
 
 ![URPP logo](Logo_URPP.png)
 
-Stefan Wyder & Heidi Lischer
+Stefan Wyder & Heidi Tschanz-Lischer
 
 
 
@@ -26,7 +26,7 @@ The tutorial is heavily based on a [Software Carpentry Course](http://swcarpentr
 12. Hosting
 
 
-Chapters 1-6 by Stefan  
+Chapters 1-6 by Stefan ([Intro Presentation](URPP_Tutorial_Git_SW.pdf)) 
 Chapters 7-12 by Heidi ([PDF Presentation](URPP_Tutorial_Git_HL.pdf) | [PDF Exercises](Exercises_Git_Tutorial_HL.pdf))  
   
 
@@ -58,7 +58,7 @@ By using graphical interfaces there is a higher risk of using advanced commands 
 
 ### Installing Graphical Interfaces
 
-We recommend [SourceTree (Mac, Windows)](https://www.sourcetreeapp.com/), [Github for Mac](https://mac.github.com/) and, for Linux, [gitkraken](https://www.gitkraken.com/) or [SmartGit](http://www.syntevo.com/smartgit/).
+We recommend [SourceTree (Mac, Windows)](https://www.sourcetreeapp.com/), [Github for Mac](https://mac.github.com/) and, for Linux, [GitKraken](https://www.gitkraken.com/) or [SmartGit](http://www.syntevo.com/smartgit/).
   
 RStudio also comprises a basic git client.  
   
@@ -102,7 +102,7 @@ git config --global user.email "YOUR EMAIL ADDRESS"
 
 **Cheatsheets**
 - [Simple cheatsheet](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
-- [Longer Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Git Reference (Software-Carpentry)](http://software-carpentry.org/v5/novice/ref/02-git)
 
 **Courses**
@@ -112,7 +112,6 @@ git config --global user.email "YOUR EMAIL ADDRESS"
 - [Happy Git and GitHub for R useRs](http://happygitwithr.com/)
 - [Interactive learning](http://pcottle.github.io/learnGitBranching/)
 - [Software Carpentry Course](http://swcarpentry.github.io/git-novice/)  
-  
 - [Git book](http://git-scm.com/book/en/v2)
 
 **Improving git skills**  
@@ -132,4 +131,6 @@ git config --global user.email "YOUR EMAIL ADDRESS"
 
 - Graphical diff/merge software, e.g. [DiffMerge](https://sourcegear.com/diffmerge/) 
 - Github gives educational discounts to students, teachers, administrators, and researchers. Apply at https://education.github.com
+- [Git/GitHub in data analysis using R - nice practical paper](hkps://doi.org/10.7287/peerj.preprints.3159v2)
 - [Git in science](http://www.scfbm.org/content/8/1/7)
+- Use GitHub safely without entering a password at each visit - generate SSH key and add to GitHub. Setup via [command line](https://help.github.com/articles/connecting-to-github-with-ssh/) or via SourceTree/Gitkraken

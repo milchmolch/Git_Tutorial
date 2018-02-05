@@ -1,4 +1,4 @@
-## Documentation/Website hosting]
+## Documentation/Website hosting
 
 The README.md file is what is shown by default in the browser view of a repository, and standard to have in your GitHub project.
 It’s basically just a text file that supports the Markdown syntax.
